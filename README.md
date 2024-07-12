@@ -1,5 +1,24 @@
 rn-assignment7-11356821
 
+This React Native shopping app lets users browse a list of products, view detailed product information, add items to their cart, and remove items from their cart.
+
+Design Choices
+React Navigation: Manages app navigation, including a drawer for easy access to different screens.
+Axios: Fetches data from an external API.
+AsyncStorage: Stores cart items locally on the device.
+FlatList: Renders large lists of products efficiently.
+Components
+HomeScreen: Lists available products fetched from an external API, each with an "Add to Cart" button.
+ProductDetailScreen: Shows detailed information about a selected product, with an "Add to Cart" button.
+CartScreen: Lists products added to the cart, each with a "Remove from Cart" button.
+DrawerMenu: Provides navigation options to switch between different screens.
+Data Storage
+
+AsyncStorage: Stores cart items locally. Cart data is updated in AsyncStorage when items are added or removed.
+How to Run
+Clone the repository.
+Install dependencies with npm install.
+Start the app on an emulator or physical device using npm start.
 
 
 
