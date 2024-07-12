@@ -24,6 +24,7 @@ DrawerMenu: Provides navigation options to switch between different screens.
 
 Data Storage
 AsyncStorage: Stores cart items locally. Cart data is updated in AsyncStorage when items are added or removed.
+
 How to Run
 Clone the repository.
 Install dependencies with npm install.
